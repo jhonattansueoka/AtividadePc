@@ -1,0 +1,90 @@
+*,
+*:before,
+*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(localizacao.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.todoctt{
+	width:100%;
+	height:600px;
+}
+.corpoctt{
+	margin-top: 5%;
+	margin-left: 10px;
+	width:100%;
+	height:58%;
+}
+h1{
+	margin:auto;
+	color:#191970;
+	font-family: Arial;
+	font-size:40px;
+}
+h2{
+	margin-top: 25px;
+	color: #191970;
+	font-family: Arial;
+	font-size: 40px;
+}
+h3{
+	font-family: Arial;
+	margin:auto;
+	font-size: 30px;
+}
+h4{
+	color: white;
+	font-family: Arial;
+}
+input, textarea{
+	font-size: 13pt;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+textarea:hover{
+	background-color: #dddddd;
+}
+input:hover{
+	background-color: #dddddd;
+}
+.formulario{
+	display:inline-block;
+	padding-top: 3%;
+	position:absolute;
+	width:100%;
+	height: 50%;
+	bottom:0px;
+	background-image: url(quebrado.jpeg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+form{
+	width:100%;
+	height:100%;
+}
+.formesquerda{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.formdireita{
+	width:50%;
+	height:100%;
+	float:right;
+}
+/*#cenviar{
+	position:absolute;
+	bottom: 3%;
+	left: 35%;
+}*/
+iframe{
+	width: 95%;
+	height:95%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}

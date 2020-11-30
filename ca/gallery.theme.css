@@ -1,0 +1,48 @@
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery {
+z-index: 1;
+}
+.gallery .item {
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+}
+.gallery .controls {
+  z-index: 2;
+  float:button;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color:#000080;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+.ftservico{
+  width:100%;
+  height: 600px;
+}
+.ftcartuchos{
+  width:100%;
+  height:600px;
+}
+.ftbrinquedos{
+  width: 100%;
+  height: 600px;
+}
